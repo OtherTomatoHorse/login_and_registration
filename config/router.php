@@ -13,4 +13,8 @@ return array(
         'filename' => 'action/registration.php',
         'class' => 'ActionRegistration',
     ),
+    'shitposting' => array(
+        'filename' => 'action/shitposting.php',
+        'class' => 'ActionShitposting',
+    ),
 );

@@ -12,7 +12,7 @@ class DbConnect {
     private $_link;
     
     private function __construct() {
-        $this->_link = mysqli_connect('localhost', 'root', '123123', 'site');
+        $this->_link = mysqli_connect('localhost', 'root', '123456', 'site');
 
         if (!$this->_link) {
             echo "Ошибка: Невозможно установить соединение с MySQL." . PHP_EOL;
